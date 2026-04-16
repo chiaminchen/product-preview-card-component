@@ -4,7 +4,7 @@ function CartButton() {
   return (
     <a
       href="#"
-      className="bg-green-light hover:bg-green-dark text-white rounded-lg flex justify-center items-center gap-3 h-12.5 transition-colors duration-300"
+      className="bg-green-light hover:bg-green-dark text-white rounded-lg flex justify-center items-center gap-3 h-12.5 transition-colors duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-green-dark"
     >
       <img src={cartIcon} className="w-4 h-4" />
       <span className="font-bold text-sm/1.1">Add to Cart</span>
