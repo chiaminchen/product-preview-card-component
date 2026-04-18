@@ -5,11 +5,16 @@ function ProductImage() {
   return (
     <figure>
       <picture>
-        <source media="(min-width: 768px)" srcSet={productDesktopImage} width={600} height={900} />
+        <source
+          media="(min-width: 768px)"
+          srcSet={productDesktopImage}
+          width={600}
+          height={900}
+        />
         <img
           src={productMobileImage}
           alt="A bottle of Gabrielle Chanel Paris perfume on a light background with green leaves"
-          className="block w-full h-full object-cover"
+          className="block h-full w-full object-cover"
           width={700}
           height={684}
         />
