@@ -1,13 +1,12 @@
-import './App.css';
 import './components/ProductImage';
 import CartButton from './components/CartButton';
 import ProductImage from './components/ProductImage';
 
 function App() {
   return (
-    <main className="bg-white rounded-xl overflow-hidden my-20 mx-[0.78125rem] max-w-150 grid grid-cols-1 md:grid-cols-2 md:w-150 md:m-0">
+    <main className="bg-white rounded-xl overflow-hidden my-20 mx-card-margin max-w-150 grid grid-cols-1 md:grid-cols-2 md:w-150 md:m-0">
       <ProductImage />
-      <div className="p-8 space-y-6">
+      <div className="p-8 flex flex-col gap-6">
         <p className="text-xs/1.2 tracking-[0.3125rem]">PERFUME</p>
         <h1 className="font-fraunces text-[2rem] font-bold text-black">
           Gabrielle Essence Eau De Parfum

@@ -7,6 +7,7 @@
   --color-green-dark: #1a4032;
   --color-cream: #f2eae2;
   --color-grey: #6c7289;
+  --spacing-card-margin: 0.78125rem;
 }
 
 @layer base {
@@ -15,10 +16,12 @@
     font-weight: 500;
     background-color: var(--color-cream);
     color: var(--color-grey);
-    display: flex;
-    justify-content: center;
     min-height: 100vh;
     display: grid;
     place-items: center;
+  }
+
+  #root {
+    display: contents;
   }
 }
