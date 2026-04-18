@@ -6,7 +6,7 @@ function ProductImage() {
     <figure>
       <picture>
         <source
-          media="(min-width: 768px)"
+          media="(min-width: 48em)"
           srcSet={productDesktopImage}
           width={600}
           height={900}
