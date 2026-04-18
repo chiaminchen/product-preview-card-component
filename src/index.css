@@ -7,7 +7,10 @@
   --color-green-dark: #1a4032;
   --color-cream: #f2eae2;
   --color-grey: #6c7289;
+  --text-title: 2rem;
+  --text-price-old: 0.8125rem;
   --spacing-card-margin: 0.78125rem;
+  --spacing-widest: 0.3125rem;
 }
 
 @layer base {
