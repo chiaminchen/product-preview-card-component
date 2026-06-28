@@ -36,5 +36,5 @@
   --space-6: 1.5rem; /* 24px */
   --space-8: 2rem; /* 32px */
 
-  --card-width-sm: 21.875rem; /* 350px */
+  --card-width: clamp(21.875rem, 6.9656rem + 63.6132vw, 37.5rem); /* 350px-600px */
 }

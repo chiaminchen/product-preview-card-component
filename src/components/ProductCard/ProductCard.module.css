@@ -1,5 +1,5 @@
 .productCard {
-  max-width: var(--card-width-sm);
+  max-width: var(--card-width);
   background-color: var(--bg-surface);
   border-radius: var(--radius-md);
 }
@@ -10,4 +10,15 @@
 
 .content > *:not(:last-child) {
   margin-bottom: var(--space-6);
+}
+
+@media (min-width: 768px) {
+  .productCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .content > *:not(:last-child) {
+    margin-bottom: var(--space-8);
+  }
 }
