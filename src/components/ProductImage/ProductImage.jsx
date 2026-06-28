@@ -1,16 +1,10 @@
 import styles from './ProductImage.module.css';
-import mobileImage from '../../assets/images/image-product-mobile.jpg';
-import desktopImage from '../../assets/images/image-product-desktop.jpg';
 
-function ProductImage() {
+function ProductImage({ mobileSrc, desktopSrc, alt }) {
   return (
     <picture>
-      <source media="(min-width: 768px)" srcSet={desktopImage} />
-      <img
-        className={styles.productImage}
-        src={mobileImage}
-        alt="Gabrielle Essence Eau De Parfum bottle on a white surface with green leaves"
-      />
+      <source media="(min-width: 768px)" srcSet={desktopSrc} />
+      <img className={styles.productImage} src={mobileSrc} alt={alt} />
     </picture>
   );
 }
