@@ -1,0 +1,23 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-medium);
+  color: var(--text-secondary);
+  line-height: var(--leading-normal);
+}
+
+h1,
+h2 {
+  font-family: var(--font-serif);
+  font-weight: var(--font-weight-bold);
+  color: var(--text-primary);
+  line-height: var(--leading-none);
+}
+
+h2 {
+  font-size: var(--font-size-xl);
+}

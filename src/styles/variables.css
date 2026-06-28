@@ -1,0 +1,40 @@
+:root {
+  --color-primary: #3d8168;
+  --color-primary-dark: #1a4032;
+
+  --text-primary: #1c232b;
+  --text-secondary: #6c7289;
+  --text-light: #fff;
+
+  --bg-base: #f2eae2;
+  --bg-surface: #fff;
+
+  --font-serif: 'Fraunces', serif;
+  --font-sans: 'Montserrat', sans-serif;
+
+  --font-size-xs: 0.75rem; /* 12px */
+  --font-size-sm: 0.8125rem; /* 13px */
+  --font-size-md: 0.875rem; /* 14px */
+  --font-size-xl: 2rem; /* 32px */
+
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --leading-none: 1;
+  --leading-tight: 1.1;
+  --leading-normal: 1.2;
+  --leading-relaxed: 1.6;
+
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.4167em; /* 5px/12px */
+
+  --radius-md: 0.5rem; /* 8px */
+
+  --space-0: 0;
+  --space-2: 0.5rem; /* 8px */
+  --space-4: 1rem; /* 16px */
+  --space-6: 1.5rem; /* 24px */
+  --space-8: 2rem; /* 32px */
+
+  --card-width-sm: 21.875rem; /* 350px */
+}

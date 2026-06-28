@@ -1,0 +1,13 @@
+.productInfo > *:not(:last-child) {
+  margin-bottom: var(--space-6);
+}
+
+.category {
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+.description {
+  line-height: var(--leading-relaxed);
+}
