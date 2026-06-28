@@ -46,7 +46,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/chiaminchen/product-preview-card-component](https://github.com/chiaminchen/product-preview-card-component)
-- Live Site URL: [https://chiaminchen.github.io/product-preview-card-component/](https://chiaminchen.github.io/product-preview-card-component/)
+- Live Site URL: [https://product-preview-card-component-pi-liard.vercel.app/](https://product-preview-card-component-pi-liard.vercel.app/)
 
 ## My process
 
