@@ -18,6 +18,11 @@
   background-color: var(--color-primary-dark);
 }
 
+.btn:focus-visible {
+  outline: 0.2rem solid var(--color-primary-dark);
+  outline-offset: 0.5rem;
+}
+
 .cart {
   display: inline-block;
 }
